@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(98, 0, 255);
+    color: rgb(221, 236, 234);
+    text-align:left
+}
+a:hover{
+    color: rgb(146, 172, 3);
+    font-size: large;
+}
+ul{
+    list-style: alpha;
+}
+p:hover{
+    color: rgb(104, 15, 15);
+    background-image: radial-gradient( green,white,rgb(101, 186, 214))
+}
+ul>li{
+    color: palevioletred;
+}
