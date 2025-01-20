@@ -1,19 +1,42 @@
 body{
-    background-color: rgb(98, 0, 255);
+    background-color: rgb(142, 109, 199);
     color: rgb(221, 236, 234);
     text-align:left
 }
 a:hover{
     color: rgb(146, 172, 3);
     font-size: large;
+    background-image: radial-gradient(rgb(120, 230, 120),lightblue,lightyellow,whitesmoke);
+    color:rgb(63, 58, 58);
+}
+a{
+    color: #000;
 }
 ul{
     list-style: alpha;
 }
-p:hover{
-    color: rgb(104, 15, 15);
-    background-image: radial-gradient( green,white,rgb(101, 186, 214))
-}
 ul>li{
-    color: palevioletred;
+    color: rgb(231, 221, 224);
 }
+h2:hover{
+    background-image: linear-gradient(to left,rgb(122, 235, 197),rgb(108, 230, 230),rgb(243, 160, 174),lightblue,whitesmoke);
+    color: rgb(75, 65, 65);box-shadow: 15px 15px 15px rgb(15, 10, 10)
+}
+#p1:hover{
+background-image: radial-gradient(rgb(120, 230, 120),lightblue,lightyellow,whitesmoke);
+color:rgb(63, 58, 58);
+box-shadow: 15px 15px 15px rgb(15, 10, 10)
+}
+#b2:hover{
+    background-image: linear-gradient(to left,rgb(122, 235, 197),rgb(108, 230, 230),rgb(243, 160, 174),lightblue,whitesmoke);
+    color: rgb(75, 65, 65);
+    box-shadow: 15px 15px 15px rgb(15, 10, 10)
+}
+    h1:hover{
+        color: rgb(122, 212, 212);
+    }
+    #siuuu:hover{
+        background-image: linear-gradient(to left,rgb(16, 109, 4),rgb(11, 179, 100),rgb(67, 233, 26),rgb(6, 99, 52),rgb(8, 194, 54));
+    color: rgb(230, 154, 154);
+    box-shadow: 15px 15px 15px rgb(15, 10, 10)
+    }
